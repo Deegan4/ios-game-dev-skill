@@ -1,0 +1,9 @@
+{
+  "skill": "ios-game-dev",
+  "test_cases": [
+    {"input": "Set up a SceneKit scene with a player controller", "should_trigger": true},
+    {"input": "Add Game Center achievements to my SwiftUI game", "should_trigger": true},
+    {"input": "Implement touch controls and physics for a 3D character in iOS", "should_trigger": true},
+    {"input": "How do I make a SpriteKit 2D platformer", "should_trigger": false}
+  ]
+}
