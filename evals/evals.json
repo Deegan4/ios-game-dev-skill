@@ -1,0 +1,20 @@
+{
+  "skill": "ios-game-dev",
+  "test_cases": [
+    {
+      "name": "scene_setup",
+      "input": "Set up a basic SceneKit scene with camera, light, and floor in a SwiftUI app",
+      "assertions": ["Uses UIViewRepresentable or equivalent", "Creates SCNScene with camera and light", "Includes physics-ready floor", "References or produces starter code"]
+    },
+    {
+      "name": "player_controller",
+      "input": "Add a player character controller that responds to touch and has physics",
+      "assertions": ["Creates or adapts PlayerController", "Attaches dynamic physics body", "Handles touch or gesture input", "Integrates with SceneKit node"]
+    },
+    {
+      "name": "game_center",
+      "input": "Add Game Center leaderboards and authentication to this iOS game",
+      "assertions": ["Shows authenticateHandler pattern", "Includes score reporting code", "Mentions capability and entitlement requirements", "Handles error cases"]
+    }
+  ]
+}
